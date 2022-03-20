@@ -1,8 +1,8 @@
 {
-  "name": "@elgorditosalsero/react-gtm-hook",
-  "author": "Guido Porcaro",
-  "repository": "https://github.com/elgorditosalsero/react-gtm-hook",
-  "homepage": "https://github.com/elgorditosalsero/react-gtm-hook#readme",
+  "name": "@enigmagram/react-gtm-hook",
+  "author": "Leo Chan",
+  "repository": "git://github.com/enigmagram/react-gtm-hook.git",
+  "homepage": "https://github.com/enigmagram/react-gtm-hook",
   "keywords": [
     "react hook",
     "google tag manager",
