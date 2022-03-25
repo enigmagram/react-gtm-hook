@@ -25,7 +25,7 @@ export const getIframeSnippet = (
     const { gtm_auth, gtm_preview } = environment
     params = `&gtm_auth=${gtm_auth}&gtm_preview=${gtm_preview}&gtm_cookies_win=x`
   }
-  return `<iframe src="https://metrics.theenigmagram.com/ns.html?id=${id}${params}" height="0" width="0" style="display:none;visibility:hidden" id="tag-manager"></iframe>`
+  return `<iframe src="https://www.googletagmanager.com/ns.html?id=${id}${params}" height="0" width="0" style="display:none;visibility:hidden" id="tag-manager"></iframe>`
 }
 
 /**
@@ -48,7 +48,7 @@ export const getGTMScript = (
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://metrics.theenigmagram.com/gtm.js?id='+i+dl${params};f.parentNode.insertBefore(j,f);
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl${params};f.parentNode.insertBefore(j,f);
     })(window,document,'script','${dataLayerName}','${id}');
   `
 }
